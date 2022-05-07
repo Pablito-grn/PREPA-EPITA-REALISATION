@@ -1,0 +1,77 @@
+TP realise par Guy-Noe Djoufaing Nzumgueng STRAS2025 [03:02 12/12/20]
+
+/*C'est la premiere fois que je fais un Readme de plus de 1 ligne je savais meme pas que c'etait conseille donc je vais certainement vous raconter ma vie (c'est tres interressant tu verras). Ah oui aussi je suis en qwerty et je sais pas faire les accents donc :[ */
+
+
+- BOUCLES
+	* Pour l'affichage des prints, j'ai du a chaque fois tester a chaque fois la premieres valeurs. je sais pas si y'avait un moyen plus simple.
+
+	* Pour le PrintStrong j'ai rajoute un fonction intermediaire (printdecimal) qui calcule la factorielle de chaque decimal. Et oui je sais j'aurai pu faire sans mais bon c'est comme ca que ca m'est venu intuitivement donc mhmhhhhh.
+
+
+
+
+-DEBUGGER
+
+	*exo1 :
+		 count est un uint et ne peuc pas etre inferieur a 0 donc en laissant le >= cree un boucle infini car en uint, 0 - 1 = 4294967295. De plus le count n'est jamais decrementer dans la boucle while donc sa valeur reste la meme
+
+	exo2:
+		la condition du premier for est fausse car i est uint init a 0 et en decrementant, on tombe sur 4294967295
+
+		faut enlever le = du i dans le 2eme for pour les memes raisons que plus haut
+		On ne compte que les nombres impairs donc faut un %2
+
+	Exo3:
+		TRY TO EXPLAIN: (J'espere que mon explication sera clair :| )
+		La fonction effectue un test entre la valeur i et la valeur i-1 du tableau si val(i-1) > val(i) on les interverti dans le tableau et on recommence l'operation avec i-2 et i-1
+
+		- J'ai rajoute le meme "systeme" que dans le Finobacci de lOoP. je pense que c'est ca qu'il fallait debuger. du moins ca marche donc bon...
+
+		- Pour SubFonction2 j'ai compris le principe de l'exo mais j'etais confu par la redaction, les ; du for avant les arguments, dcp je l
+		ai recode en essayant au max de conserver la structure.
+
+
+
+-DEBUG ME HARRY (j'ai failli laisser harry se demerder tout seul. apres je me suis souvenu qu'il est orphelin)
+
+	lowersort:
+		- erreur de signe (<= en >=)
+
+	greaterSort:
+		- pas de changement
+
+	isEven :
+		- Erreur de modulo (3 en 2)
+
+	evenSort
+		- pas de changement
+
+	alphabeticalSort
+		- j'ai galere, puis j'ai cru que j'avais compris, mais en fait non, a un moment j'avais le bon tri mais inverse (Z-A) puis j'ai modifie et ca a tout gate puis reessaye de comprendre, mais apres 4h de galere (peut etre j'abuse sur l'heure ou peut etre pas) j'ai decide de laisser Harry se demerder(il je n'ai pas une baguette contrairement a lui ;) )
+		dcp pour cet exo j'ai fais un truc mais je peut pas dire que j'ai corriger un bug. Le pire c'est que je sais que le bug doit etre ridicule et je me deteste de l'entrevoir. Vous aussi quelle idee d'ecrire du code degeu comme ca pfff :( .
+
+
+		// maj du dimanche a 16h56 en fait depuis le debut j'avais fait une erreur en modifiant le Sortlist dans le deuxieme fort, j'avais remplace j<i par j<list.count (je sais pas pourquoi j'ai fait ca surement a fatigue ou juste que je suis teube mais on va dire  que c'etait la fatigue)
+
+		dcp mon tri marche et les erreurs etaient : 
+			- le signe du retour dans le if (< en >) (je sais plus exactement comment j'avais trouver ca. c'etait tout sauf du hasard bien sur)
+			- la division de div1 par 10 pour conserver l'autre de grandeur avec div2
+			- le return final, et la encore je ne sais plus pourquoi cela mais ca marche et c'est ca qui compte 
+
+
+	swap
+		- Erreur de permutation de valeur pour l'indice 2 dans l'init du tmp (ind2 en ind1)
+
+	sortList
+		- list.count est >= 0 et on incremente i => boucle infini
+		. le j est init a 0 et va parcourir une case en trop (inexistante)
+
+
+
+Ici s'arrete la redaction de mon journal intime (j'espere que tu ou vous as (avez) apprecie le lire) et je conclurai celui ci en disant que cette semaine a ete longue et riche et que (je n'ai pas de fin).
+
+
+"Petit message au ACDC : les gars c'etait quoi ce tp. je pensais que le c# ca devais etre facile mais passe plus de temps a faire ca que l'afit *le pire c'est que ce n'est pas une blague.* surtout avec les bugs *Y AVAIS MEME PAS D'EXPLICATION* comment resoudre un bug sans le contexte d'ecriture. C'est comme quand je fais un gateau et que ma mere n'est pas la, ca n'a aucun sens. Au debut je pensais qu'il fallait juste regarder le Main et renvoyer le resultat, du style si la fonction doit retourner 42, on fait un return 42sh; *LOL MDRR PTDRR CHEHHH*. j'ai mis tout mon coeur dans la conception de ce tp et j'espere que le combat vaudra la peau de l'ours pck j'ai sacrifie mon td de maths pour aider Harry a se debug. Bref je ne sais pas qui lira ces belles lignes que j'ecris a 03:08 du matin, mais si tu es un bon tu sais ce qui te reste a faire "-". Au pire paypal reste une solution. contacte moi en dm et ton prix sera mon prix ;)"
+
+"Par contre les blagues dans le tp, ca je dis OUI"

@@ -1,0 +1,13 @@
+"compte rendu du Tp5 by Guy Noe Djoufaing" [sam 16/01/2021 : 02:44]
+
+Tp terminé. j'avais pas prévu de le faire mais finalement j'ai changé d'avis. Au debut je comprenais pas grand chose quand j'ai commencé lundi matin puis j'ai tout fait jusqu'á la cryptographie et ca m'a soulé. et jái repris hier soir a 22h et j'ai relu le cour et je l'ai torché.
+
+Bonus:
+	- Betterls -->  basics
+	- BetterCSV --> ParseMyCSV
+
+	-Better Update --> ParseMyCSV
+		-ReinitPoint/NameStudent/0  -> remets les points du joueur a 0
+
+		-TricheCommePotter/NameStudent/100000 -> augmente le score du l'éleve de 100000 points (plus que ces tricheurs de Potter, Hermione et l'autre roux) sauf si cet éleve est Potter, Ron ou Hermione
+

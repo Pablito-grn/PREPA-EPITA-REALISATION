@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "Basics\Basics.csproj", "{A58CE5BA-9FA4-47B4-8B40-3A4D8532BB37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoneCloakWand", "StoneCloakWand\StoneCloakWand.csproj", "{E31C7C15-B2A1-442B-9F17-1BE576E03C8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A58CE5BA-9FA4-47B4-8B40-3A4D8532BB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58CE5BA-9FA4-47B4-8B40-3A4D8532BB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58CE5BA-9FA4-47B4-8B40-3A4D8532BB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58CE5BA-9FA4-47B4-8B40-3A4D8532BB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31C7C15-B2A1-442B-9F17-1BE576E03C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31C7C15-B2A1-442B-9F17-1BE576E03C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31C7C15-B2A1-442B-9F17-1BE576E03C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31C7C15-B2A1-442B-9F17-1BE576E03C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

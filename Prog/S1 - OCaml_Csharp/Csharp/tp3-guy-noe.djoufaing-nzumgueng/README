@@ -1,0 +1,41 @@
+"TP3 de Guy-Noe DJOUFAING NZUMGUENG" "Ou la suite de journal intime de la semaine intime Samedi 19/12 - 02h35"
+
+
+Tp bien sympa comme on les aime "ceci est de l'ironie bien sur".
+En vrai c'etait pas trop complique sauf la partie du patronus "Un vendredi dessus :{ "
+
+
+Bonus: 		Pour une fois j'ai reussi a faire les bonus du coup j'ai fais le Another sort (Comb Sort). 
+	
+
+	- je vais donc vous expliquer ce que c'est (en vrai je suis oblige si je veux ts les pts ). preparez donc le pop corn et installez vous (oui je te vouvoie)
+
+		+ 	L'idée de base du comb sort est de comparer un élément avec un autre élément plus lointain, espacé de celui-ci d'un certain intervalle. 	Au départ, cet intervalle est relativement grand, puis on le réduit progressivement à chaque passe de l'algorithme jusqu'à ce qui ne 		soit plus 	que de 1 en fin de traitement. Le tri à bulles peut être considéré comme une variante du comb sort dans lequel l'intervalle 	est toujours de 1.
+
+			Autrement dit, la boucle interne du tri à bulle (celle qui fait la comparaison de deux éléments voisins et l'échange des valeurs si nécessaire) est modifiée pour comparer d'abord des éléments distants de la valeur de l'intervalle, puis, à chaque passe, cet intervalle est divisé par un certain coefficient, le facteur de réduction jusqu'à ce qu'il tombe à 1.
+
+			La valeur d'origine de l'intervalle est généralement la taille de la liste à trier divisée par le facteur de réduction. Des essais empiriques ont montré que la valeur idéale de ce facteur de réduction est voisine de 1,3 (voir ci-dessous). 
+
+		+ 	Cette methode de tri est plus efficace que le tri a bulles car elle utilise un espacement modulable et permet une decroissance plus 		rapide des elements se trouvant en fin de tableaux. en gros c'est un Bubble upgrade.
+
+
+	- Pour le RotN, rien de vraiment incroyable a dire. c'etait un simple appel de RotChar durant un parcous de tableau
+
+
+	- Basics
+
+		+ Arrays :
+				- Fonction supplementaire:
+						- EstTriee :  qui verifie si un tableau est trie dans l'ordre croissant (Bubble)
+
+
+		+ Reference :
+				- Fonction supplementaire:
+						- wheel : qui effectue la rotation d'un charactere de modulo n positions
+
+
+	- Patronus : 
+				pas de fonction supplemenaire pour cette partie.
+
+
+	-conclusion :  Bon cette semaine beaucoup moins de lamentations que la semaine dernieres. Hey dsl hein j'essaie de commenter un max mon code mais cette fois j'ai oublie.
